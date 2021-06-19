@@ -265,31 +265,31 @@ a {
 }
 
 .item-1 {
-    background-image: url("image/Background/Image5.jpg");
+    background-image: url("Image/Background/Image5.jpg");
     background-repeat: no-repeat;   
     background-size: cover;
 }
 
 .item-2 {
-    background-image: url("image/Background/Image2.jpg");
+    background-image: url("Image/Background/Image2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .item-3 {
-    background-image: url("image/Background/image3.jpg");
+    background-image: url("Image/Background/image3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .item-4 {
-    background-image: url("image/Background/image4.jpg");
+    background-image: url("Image/Background/image4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .item-5 {
-    background-image: url("image/Background/image6.jpg");
+    background-image: url("Image/Background/image6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }

@@ -1,0 +1,367 @@
+@font-face {
+    font-family: Montse;
+    src: url("Font/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: Montse;
+    src: url("Font/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: Montse;
+    src: url("Font/Montserrat-Medium.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 24;
+    color: #fff;
+    
+    font-family: Montse;
+}
+
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1160px;
+    }
+}
+
+@media (max-width: 1160px){
+    .Center_Content {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Center_Top_Block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Header {
+        padding-top: 200px
+    }
+
+    .MySet_lvl img {
+        width: 550px;
+    }
+    
+    .MySet_block {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1060px) {
+    .container {
+        max-width: none;
+    }
+
+    .MySet_lvl img {
+        width: 450px;
+    }
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 24;
+    color: #fff;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    position: relative;
+}
+
+
+/*//////////////////////////////
+            HEADER
+///////////////////////////////////*/
+
+.Header {
+    background-image: url("Image/Background/Header_BG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 105vh;
+}
+
+.Header_content {
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.Header_logo img {
+    width: 300px; 
+    position: absolute;
+    left: 0; top: 50px
+}
+
+.Header_MyName h1 {
+    border: 4px solid #fff;
+    padding: 2%;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.Header_under {
+    display: flex;
+    flex-direction: row;    
+}
+
+.Header_contact {
+    padding-left: 15em;
+    display: flex;
+    flex-direction: column;
+}
+
+/*//////////////////////////////
+            CENTER
+///////////////////////////////////*/
+
+.Center {
+    height: 150vh;
+    margin: 0 auto;
+}
+
+.Center_Content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.Center_Top_Block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Center_About {
+    padding-top: 10px;
+    background: #000;
+    border-radius: 30px;
+    height: 385px; max-width: 750px;
+}
+
+.Center_About h2, p {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.Center_About p {
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.Center_About h2 {
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    border-bottom: 4px solid #fff;
+}
+
+.Center_MySet {
+    margin-top: 50px;
+    width: 100%;
+    position: relative;
+    height: 385px;
+    background-color: #000;
+    border-radius: 30px;
+    display: flex;
+    text-transform: uppercase;
+    flex-direction: column;
+}
+
+.Center_MySet h2 {
+    border-bottom: 4px solid #fff;
+    padding-top: 20px; padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.MySet_block {
+    display: flex;
+    flex-direction: row;
+    
+    padding-top: 25px;
+}
+
+.MySet_icons {
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+}
+
+.MySet_icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.MySet_Icon_img {
+    margin-left: 15px;
+}
+
+.MySet_icon_img :first-child {
+    margin-right: 0px;
+}
+
+.MySet_icon img {
+    height: 100px;
+}
+
+.MySet_lvl {
+    padding-left: 100px;
+}
+
+.Center_Down p {
+    font-size: 64px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: #000;
+}
+
+
+/*//////////////////////////////
+            Work
+///////////////////////////////////*/
+
+.Work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.Work_item {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #000;
+    background-color: #fff;
+    flex-basis: 25%;
+    transition: all .5s;
+}
+
+.Work_item:hover {
+    flex-basis: 100%;
+}
+
+.item-1 {
+    background-image: url("image/Background/Image5.jpg");
+    background-repeat: no-repeat;   
+    background-size: cover;
+}
+
+.item-2 {
+    background-image: url("image/Background/Image2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-3 {
+    background-image: url("image/Background/image3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-4 {
+    background-image: url("image/Background/image4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-5 {
+    background-image: url("image/Background/image6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*//////////////////////////////
+            CSHARP
+///////////////////////////////////*/
+
+.Csharp {
+    height: 50vh;
+}
+
+.Csharp_items {
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    background-color: #000;
+    border-radius: 30px;
+    position: relative;
+}
+
+.Csharp_items h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    border-bottom: 4px solid #fff;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 60px;
+    font-size: 26px;
+}
+
+nav a:hover {
+    color: lawngreen;
+}
+
+
+/*//////////////////////////////
+            BOTTOM
+///////////////////////////////////*/
+
+.Bottom {
+    height: 15vh;
+    background-color: #1a1a1a;
+}
+
+.Bottom_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Bottom_link {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+.Bottom_link p {
+    margin-top: 0;
+}
+
+.Bottom_content img {
+    width: 50px;
+    margin-left: 60px;
+}
+
+

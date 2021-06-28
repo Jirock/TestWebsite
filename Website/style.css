@@ -225,7 +225,15 @@ a {
 
 
 .lvl_1 {
-    width: 75%;
+    width: 65%;
+}
+
+.lvl_2 {
+    width: 40%;
+}
+
+.lvl_3 {
+    width: 36%;
 }
 
 
